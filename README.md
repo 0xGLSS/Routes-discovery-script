@@ -1,19 +1,17 @@
-# Routes-discovery-script
-this open source penetration testing script that automates the process of discovering hosts inside the network and finding known exploits in them
+#Routes Discovery Script
+Discovering vulnerabilities within a network is a crucial aspect of penetration testing, and the Routes Discovery Script simplifies this process. This open-source tool automates the discovery of hosts within a network and identifies known exploits present on those hosts.
 
-# How does it work?
-The script Parses default (current) routes and wait for changes
+#How It Works
+The script operates by parsing default routes and monitoring for any changes. When a user connects to a VPN server, the script dynamically detects newly added routes and presents them for analysis.
+![image](https://github.com/0xGLSS/Routes-discovery-script/assets/85647797/a80f6864-44ca-46ee-b311-7f8e86edf13d)
 
-[image](https://github.com/0xGLSS/Routes-discovery-script/assets/85647797/0068ee47-3f89-4231-b2c7-836b0e40fc5c)
+![image](https://github.com/0xGLSS/Routes-discovery-script/assets/85647797/8d68a468-2c90-4ba2-af84-aafbf31c35c9)
+
+Subsequently, the script initiates a multi-threaded scan targeting the identified routes to uncover potential vulnerabilities.
 
 
-when the user connects to a VPN server the script automatically picks up newely added routes displays them
+![image](https://github.com/0xGLSS/Routes-discovery-script/assets/85647797/39d1c452-210a-43e6-8328-06b220f6bb8e)
 
-![image](https://github.com/0xGLSS/Routes-discovery-script/assets/85647797/b7b53d9f-785d-4f1f-99c2-62215954c601)
 
-Then the script Launches a multi-threaded scan against the detected routes
-
-![image](https://github.com/0xGLSS/Routes-discovery-script/assets/85647797/e8b06e5f-598e-41ff-aa9d-d8194d666cc0)
-
-Use at Your Own Risk!!
-This tool is provided as-is, without warranties. Use responsibly and legally. Unauthorized access is prohibited. The developers are not liable for any damages. Ensure compliance with laws and ethics. By using this tool, you agree to these terms.
+Disclaimer
+Use at Your Own Risk! This tool is distributed as-is, without any warranties. It is imperative to utilize this tool responsibly and within legal bounds. Unauthorized access is strictly prohibited. The developers cannot be held liable for any damages incurred through the use of this tool. Always ensure compliance with relevant laws and ethical guidelines. By utilizing this tool, you acknowledge and agree to these terms.
