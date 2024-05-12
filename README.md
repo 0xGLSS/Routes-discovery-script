@@ -5,7 +5,9 @@ Discovering vulnerabilities within a network is a crucial aspect of penetration 
 # How It Works
 
 The script operates by parsing default routes and monitoring for any changes. When a user connects to a VPN server, the script dynamically detects newly added routes and presents them for analysis.
+
 ![image](https://github.com/0xGLSS/Routes-discovery-script/assets/85647797/a80f6864-44ca-46ee-b311-7f8e86edf13d)
+
 
 ![image](https://github.com/0xGLSS/Routes-discovery-script/assets/85647797/8d68a468-2c90-4ba2-af84-aafbf31c35c9)
 
